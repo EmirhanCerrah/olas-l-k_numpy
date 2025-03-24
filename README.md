@@ -1,1 +1,1 @@
-# olas-l-k_numpy
+# olasilik_numpy

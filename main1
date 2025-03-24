@@ -1,0 +1,19 @@
+import numpy as np
+
+i = 1
+m = 0
+
+while i <= 1000:
+    Array7 = np.random.randint(10, 30, 5)
+    k = 0
+
+    for j in range(0, 5):
+        k += Array7[j]
+
+    if k > 130:
+        m += 1
+
+    i += 1
+
+
+print(f"100 ÇEKİMDEN KAZANMA ORANIN: {round(m/1000, 4)} ve kazanma sayın {m}")
